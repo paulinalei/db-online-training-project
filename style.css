@@ -1,0 +1,47 @@
+.jumbotron h1 {
+	text-align: center;	
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	margin: 50px;
+}
+
+.jumbotron h2 {
+	text-align: center;	
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+.tabs {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+ul.tabs{	
+	list-style: none;
+}
+
+ul.tabs li{
+	background: none;
+	color: black;
+	display: inline-block;
+	padding: 10px 50px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #dbdbdb;
+	color: black;
+}
+
+.tab-content{
+	display: none;
+	background: #dbdbdb;
+	padding: 20px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
