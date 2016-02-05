@@ -13,7 +13,7 @@ var main = function() {
 		$("#"+tab_id).addClass('current');
 	})
 	
-	$('.click-alert').click(function() {
+	$('#click-alert').click(function() {
     		alert("Thanks for visiting");
     	})
 
