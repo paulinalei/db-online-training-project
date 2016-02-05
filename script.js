@@ -14,7 +14,7 @@ var main = function() {
 	})
 	
 	$('#hamster-title').click(function() {
-    		alert('You have been active for ' + timer + ' seconds');
+    		alert('You have been active for ');
     	})
 
 };
