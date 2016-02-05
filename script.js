@@ -1,8 +1,8 @@
 var main = function() {
 	var timer = 0;
-	setInterval(function(){
-		timer ++;
-	}, 1000)
+	// setInterval(function(){
+	// 	timer ++;
+	// }, 1000)
 	$('ul.tabs li').click(function(){
 		var tab_id = $(this).attr('data-tab');
 
