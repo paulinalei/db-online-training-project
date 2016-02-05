@@ -14,7 +14,7 @@ var main = function() {
 	})
 	
 	$('#click-alert').click(function() {
-    		alert("Thanks for visiting");
+    		alert("You have been looking at hamsters for " + timer + " seconds.");
     	})
 
 };
