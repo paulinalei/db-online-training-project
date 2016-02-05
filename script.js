@@ -1,5 +1,4 @@
-$(document).ready(function(){
-	
+var main = function() {
 	$('ul.tabs li').click(function(){
 		var tab_id = $(this).attr('data-tab');
 
@@ -10,4 +9,6 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('current');
 	})
 
-})
+};
+
+$(document).ready(main);
