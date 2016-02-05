@@ -13,8 +13,8 @@ var main = function() {
 		$("#"+tab_id).addClass('current');
 	})
 	
-	$('#hamster-title').click(function() {
-    		alert('You have been active for ');
+	$('.click-alert').click(function() {
+    		alert("Thanks for visiting");
     	})
 
 };
