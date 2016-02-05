@@ -45,3 +45,6 @@ ul.tabs li.current{
 	display: inherit;
 }
 
+.information {
+	text-align: center;
+}
