@@ -3,7 +3,11 @@
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
 	color: black;
-	margin: 50px;
+	margin: 10px;
+}
+
+.jumbotron hr {
+	color: blue;
 }
 
 .jumbotron h2 {
@@ -45,3 +49,14 @@ ul.tabs li.current{
 	display: inherit;
 }
 
+.information {
+	text-align: center;
+}
+
+img.header-img {
+	padding-bottom: 2px;
+	height: 80%;
+	width: 80%;
+	max-height: 250px;
+	max-width: 250px;
+}
